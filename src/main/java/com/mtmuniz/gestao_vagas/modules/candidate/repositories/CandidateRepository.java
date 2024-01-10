@@ -1,6 +1,6 @@
-package com.mtmuniz.gestao_vagas.modules.candidate;
+package com.mtmuniz.gestao_vagas.modules.candidate.repositories;
 
-import com.fasterxml.jackson.annotation.OptBoolean;
+import com.mtmuniz.gestao_vagas.modules.candidate.entities.CandidateEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
