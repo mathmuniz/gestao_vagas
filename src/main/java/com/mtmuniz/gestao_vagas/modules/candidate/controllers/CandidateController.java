@@ -1,8 +1,6 @@
 package com.mtmuniz.gestao_vagas.modules.candidate.controllers;
 
-import com.mtmuniz.gestao_vagas.exceptions.UserFoundException;
-import com.mtmuniz.gestao_vagas.modules.candidate.CandidateEntity;
-import com.mtmuniz.gestao_vagas.modules.candidate.CandidateRepository;
+import com.mtmuniz.gestao_vagas.modules.candidate.entities.CandidateEntity;
 import com.mtmuniz.gestao_vagas.modules.candidate.useCases.CreateCandidateUseCase;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;

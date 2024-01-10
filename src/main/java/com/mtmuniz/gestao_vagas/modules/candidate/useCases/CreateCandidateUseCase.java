@@ -1,8 +1,8 @@
 package com.mtmuniz.gestao_vagas.modules.candidate.useCases;
 
 import com.mtmuniz.gestao_vagas.exceptions.UserFoundException;
-import com.mtmuniz.gestao_vagas.modules.candidate.CandidateEntity;
-import com.mtmuniz.gestao_vagas.modules.candidate.CandidateRepository;
+import com.mtmuniz.gestao_vagas.modules.candidate.entities.CandidateEntity;
+import com.mtmuniz.gestao_vagas.modules.candidate.repositories.CandidateRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
